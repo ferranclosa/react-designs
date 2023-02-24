@@ -1,15 +1,27 @@
-import SplitScreen from './SplitScreen'
-import TopComponent from "./TopComponent";
-import BottomComponent from "./BottomComponent";
+import {LargeProductListItem} from "./LargeProductListItem";
+import {Modal} from "./Modal";
 
+const products = [{
+  name: 'Flat-Screen TV',
+  price: '$300',
+  description: 'Huge LCD screen, a great deal',
+  rating: 4.5,
+}, {
+  name: 'Basketball',
+  price: '$10',
+  description: 'Just like the pros use',
+  rating: 3.8,
+}, {
+  name: 'Running Shoes',
+  price: '$120',
+  description: 'State-of-the-art technology for optimum running',
+  rating: 4.2,
+}];
 function App() {
   return (
-    <SplitScreen
-      leftWeight={2}
-      rightWeight={4}>
-      <TopComponent title={'Top part of the page'} />
-      <BottomComponent content={'Some content in the paragraph'}/>
-  </SplitScreen>
+      <Modal>
+        <LargeProductListItem product={products[1]}></LargeProductListItem>
+      </Modal>
   );
 }
 
