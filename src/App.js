@@ -1,24 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import SplitScreen from './SplitScreen'
+import TopComponent from "./TopComponent";
+import BottomComponent from "./BottomComponent";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <SplitScreen
+      leftWeight={2}
+      rightWeight={4}>
+      <TopComponent title={'Top part of the page'} />
+      <BottomComponent content={'Some content in the paragraph'}/>
+  </SplitScreen>
   );
 }
 
