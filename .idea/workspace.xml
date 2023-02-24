@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b7c863d-765d-4024-86c4-b87c93936b54" name="Changes" comment="branch 01_02_w created">
+      <change afterPath="$PROJECT_DIR$/src/NumberedList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RegularList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/people/LargePeopleItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/people/SmallPeopleItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/product/LargeProductItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/product/SmallProductItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BottomComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeftComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RightComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SplitScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TopComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="01_02b" />
+        <entry key="$PROJECT_DIR$" value="01_02w" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,7 +66,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ferranClosa.MYLENOVO/WebstormProjects/react-design-patterns-2895130/src",
+    "last_opened_file_path": "C:/Users/ferranClosa.MYLENOVO/WebstormProjects/react-design-patterns-2895130",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -65,6 +80,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ferranClosa.MYLENOVO\WebstormProjects\react-design-patterns-2895130" />
       <recent name="C:\Users\ferranClosa.MYLENOVO\WebstormProjects\react-design-patterns-2895130\src" />
     </key>
   </component>
@@ -78,7 +94,7 @@
       <updated>1677242041416</updated>
       <workItem from="1677242046914" duration="1424000" />
       <workItem from="1677244027410" duration="341000" />
-      <workItem from="1677244586042" duration="5940000" />
+      <workItem from="1677244586042" duration="9947000" />
     </task>
     <task id="LOCAL-00001" summary="branch 01_02_w created">
       <created>1677249836635</created>
@@ -108,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677250096910</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="branch 01_02_w created">
+      <created>1677251003339</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677251003339</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
