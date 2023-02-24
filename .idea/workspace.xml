@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b7c863d-765d-4024-86c4-b87c93936b54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BottomComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeftComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RightComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SplitScreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TopComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-    </list>
+    <list default="true" id="4b7c863d-765d-4024-86c4-b87c93936b54" name="Changes" comment="branch 01_02_w created" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="02_01b" />
+        <entry key="$PROJECT_DIR$" value="01_02b" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -85,8 +72,23 @@
       <updated>1677242041416</updated>
       <workItem from="1677242046914" duration="1424000" />
       <workItem from="1677244027410" duration="341000" />
-      <workItem from="1677244586042" duration="4844000" />
+      <workItem from="1677244586042" duration="5182000" />
     </task>
+    <task id="LOCAL-00001" summary="branch 01_02_w created">
+      <created>1677249836635</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677249836635</updated>
+    </task>
+    <task id="LOCAL-00002" summary="branch 01_02_w created">
+      <created>1677249861003</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677249861003</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,5 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="branch 01_02_w created" />
+    <option name="LAST_COMMIT_MESSAGE" value="branch 01_02_w created" />
   </component>
 </project>
