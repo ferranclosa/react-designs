@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b7c863d-765d-4024-86c4-b87c93936b54" name="Changes" comment="branch 01_02_w created" />
+    <list default="true" id="4b7c863d-765d-4024-86c4-b87c93936b54" name="Changes" comment="branch 01_02_w created">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +26,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="99878d91-a3c7-4b89-a6f7-c2977493b9cd" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
@@ -73,7 +78,7 @@
       <updated>1677242041416</updated>
       <workItem from="1677242046914" duration="1424000" />
       <workItem from="1677244027410" duration="341000" />
-      <workItem from="1677244586042" duration="5229000" />
+      <workItem from="1677244586042" duration="5940000" />
     </task>
     <task id="LOCAL-00001" summary="branch 01_02_w created">
       <created>1677249836635</created>
@@ -96,11 +101,29 @@
       <option name="project" value="LOCAL" />
       <updated>1677250011310</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="branch 01_02_w created">
+      <created>1677250096910</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677250096910</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
