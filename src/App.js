@@ -1,28 +1,56 @@
-import {LargeProductListItem} from "./LargeProductListItem";
-import {Modal} from "./Modal";
+import {UserInfo} from "./UserInfo";
+import axios from "axios";
 
-const products = [{
-  name: 'Flat-Screen TV',
-  price: '$300',
-  description: 'Huge LCD screen, a great deal',
-  rating: 4.5,
-}, {
-  name: 'Basketball',
-  price: '$10',
-  description: 'Just like the pros use',
-  rating: 3.8,
-}, {
-  name: 'Running Shoes',
-  price: '$120',
-  description: 'State-of-the-art technology for optimum running',
-  rating: 4.2,
-}];
+import {CurrentUserLoader} from "./CurrentUserLoader";
+import {UserLoader} from "./UserLoader";
+
+import {ResourceLoader} from "./ResourceLoader";
+import {ProductInfo} from "./ProductInfo";
+import {DataSource} from "./DataSource";
+const getServerData = url => async () => {
+	const response = await axios.get(url);
+	return response.data;
+}
+
 function App() {
-  return (
-      <Modal>
-        <LargeProductListItem product={products[1]}></LargeProductListItem>
-      </Modal>
-  );
+	return (
+
+		<>
+			<ResourceLoader
+				resourceUrl='/products/1234'
+				resourceName='product'>
+				<ProductInfo />
+			</ResourceLoader>
+			<UserLoader userId='456'>
+				<UserInfo />
+			</UserLoader>
+			<UserLoader userId='234'>
+				<UserInfo />
+			</UserLoader>
+			<UserLoader userId='123'>
+				<UserInfo />
+			</UserLoader>
+
+			<ResourceLoader
+				resourceUrl='/users/123'
+				resourceName='user'>
+				<UserInfo />
+			</ResourceLoader>
+
+			<ResourceLoader
+				resourceUrl='/products/5678'
+				resourceName='product'>
+				<ProductInfo />
+			</ResourceLoader>
+
+			<DataSource
+				getDataFunc={getServerData( '/users/123')}
+				resourceName='user'>
+				<UserInfo />
+			</DataSource>
+		</>
+
+	);
 }
 
 export default App;
