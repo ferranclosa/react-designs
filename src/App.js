@@ -18,11 +18,11 @@ function App() {
 
 		<>
 			<DataSource
-				getDataFunc={getServerData( '/users/123')}
+				getDataFunc={getServerData( '/users/345')}
 				resourceName='user'>
 				<UserSelect />
 			</DataSource>
-
+{/*
 			<ResourceLoader
 				resourceUrl='/products/1234'
 				resourceName='product'>
@@ -31,14 +31,14 @@ function App() {
 			<UserLoader userId='456'>
 				<UserInfo />
 			</UserLoader>
-			<UserLoader userId='234'>
+			<UserLoader userId='345'>
 				<UserInfo />
 			</UserLoader>
 			<UserLoader userId='123'>
 				<UserInfo />
-			</UserLoader>
+			</UserLoader>*/}
 
-			<ResourceLoader
+		{/*	<ResourceLoader
 				resourceUrl='/users/123'
 				resourceName='user'>
 				<UserInfo />
@@ -48,10 +48,10 @@ function App() {
 				resourceUrl='/products/5678'
 				resourceName='product'>
 				<ProductInfo />
-			</ResourceLoader>
+			</ResourceLoader>*/}
 
 			<DataSource
-				getDataFunc={getServerData( '/users/123')}
+				getDataFunc={getServerData( '/users/345')}
 				resourceName='user'>
 				<UserInfo />
 			</DataSource>

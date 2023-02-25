@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b7c863d-765d-4024-86c4-b87c93936b54" name="Changes" comment="branch 02_01_w created. for Containers">
-      <change afterPath="$PROJECT_DIR$/src/UserSelect.js" afterDir="false" />
+    <list default="true" id="4b7c863d-765d-4024-86c4-b87c93936b54" name="Changes" comment="using react-select with options">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677314246328</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="using react-select with options">
+      <created>1677317063114</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677317063114</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +170,8 @@
     <MESSAGE value="branch 01_02_w created" />
     <MESSAGE value="branch 01_06_w created. for Modal" />
     <MESSAGE value="branch 02_01_w created. for Containers" />
-    <option name="LAST_COMMIT_MESSAGE" value="branch 02_01_w created. for Containers" />
+    <MESSAGE value="using react-select with options" />
+    <option name="LAST_COMMIT_MESSAGE" value="using react-select with options" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
