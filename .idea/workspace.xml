@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b7c863d-765d-4024-86c4-b87c93936b54" name="Changes" comment="branch 01_06_w created. for Modal">
-      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CurrentUserLoader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataSource.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ResourceLoader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserLoader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
+    <list default="true" id="4b7c863d-765d-4024-86c4-b87c93936b54" name="Changes" comment="branch 02_01_w created. for Containers">
+      <change afterPath="$PROJECT_DIR$/src/UserSelect.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LargeProductListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductInfo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677257519826</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="branch 02_01_w created. for Containers">
+      <created>1677314246328</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677314246328</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,14 +165,15 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="branch 01_02_w created" />
     <MESSAGE value="branch 01_06_w created. for Modal" />
-    <option name="LAST_COMMIT_MESSAGE" value="branch 01_06_w created. for Modal" />
+    <MESSAGE value="branch 02_01_w created. for Containers" />
+    <option name="LAST_COMMIT_MESSAGE" value="branch 02_01_w created. for Containers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/App.js</url>
-          <line>46</line>
+          <line>53</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -182,6 +182,18 @@
           <line>15</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/UserSelect.js</url>
+          <line>5</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/UserSelect.js</url>
+          <line>9</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
